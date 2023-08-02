@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Outfit;
+    src: url(../font/Outfit.woff);
+}
+
+* {
+    font-family: Outfit;
+}
+
+body {
+    max-width: 1440px;
+    background: hsl(217, 54%, 11%);
+}
+
+#card {
+    background: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imagem {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+}
+
+#imagem:hover {
+    background-image: url(../images/image-equilibrium.jpg),url(../icon/icon-view.svg);
+    background-color: hsl(178, 100%, 50%, 0.4);
+    background-blend-mode: soft-light, normal;
+    background-size: contain,auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h3, span {
+    color: white;
+}
+
+h3:hover, span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(215, 51%, 70%);
+}
+
+#text {
+    width: 300px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.ethereum-text {
+    color: hsl(178, 100%, 50%);
+    display: inline;
+    margin-right: 70px;
+}
+
+.clock-text {
+    display: inline;
+}
+
+
+#account {
+    padding-top: 10px;
+    float: left;
+}
+
+#creator {
+    color: hsl(215, 51%, 70%);
+    float: left;
+    padding: 3px 0 0 10px;
+}
+
